@@ -38,11 +38,9 @@ export default function middleware(request: NextRequest) {
   //   return redirectIfAuthenticated(request)
   // }
 
-  if ([
-    '/',
-    '/pokemons',
-    '/pokemons/client',
-  ].includes(request.nextUrl.pathname)) {
+  if (
+    ['/', '/pokemons', '/pokemons/client'].includes(request.nextUrl.pathname)
+  ) {
     return authenticated(request)
   }
 

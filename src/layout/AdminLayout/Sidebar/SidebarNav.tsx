@@ -209,8 +209,7 @@ export default function SidebarNav() {
         <SidebarNavItem icon={faBug} href="#">Error 404</SidebarNavItem>
         <SidebarNavItem icon={faBug} href="#">Error 500</SidebarNavItem>
       </SidebarNavGroup>
-
-      <SidebarNavItem icon={faFileLines} href="#">Docs</SidebarNavItem>
+      <SidebarNavItem icon={faFileLines} href="docs">Docs</SidebarNavItem>
       <SidebarNavItem icon={faLayerGroup} href="https://coreui.io/pro/">Try CoreUI PRO</SidebarNavItem>
     </ul>
   )

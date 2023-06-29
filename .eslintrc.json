@@ -64,7 +64,7 @@
     // Since we do not use prop-types
     "react/require-default-props": 0,
     "semi": [
-      2,
+      1,
       "never"
     ]
   }
