@@ -142,8 +142,8 @@ export default function SidebarNav() {
         <small className="ms-auto"><Badge bg="danger" className="ms-auto">DEMO</Badge></small>
       </SidebarNavItem>
       <SidebarNavTitle>Theme</SidebarNavTitle>
-      <SidebarNavItem icon={faDroplet} href="#">Colors</SidebarNavItem>
-      <SidebarNavItem icon={faPencil} href="#">Typography</SidebarNavItem>
+      <SidebarNavItem icon={faDroplet} href="/">Colors</SidebarNavItem>
+      <SidebarNavItem icon={faPencil} href="/">Typography</SidebarNavItem>
       <SidebarNavTitle>Components</SidebarNavTitle>
 
       <SidebarNavGroup toggleIcon={faPuzzlePiece} toggleText="Base">
